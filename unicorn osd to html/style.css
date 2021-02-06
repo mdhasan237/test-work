@@ -1,0 +1,686 @@
+/*=========================================== 
+style.css
+============================================*/
+*{
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #212121;
+}
+
+/* header part start from here*/
+.header {
+	width: 100%;
+	height: 100vh;
+	background-color: red;
+	background-image: url(images/banner.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+}
+
+.mid {
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+.blr {
+	background-color: rgba(0, 0, 0, .3);
+	width: 100%;
+	height: 100%;
+	padding: 50px 0px;
+	box-sizing: border-box ;
+}
+
+
+.logo {
+	width: 30%;
+	float: left;
+}
+
+.menu {
+	width: 70%;
+	float: left;
+}
+
+.menu ul {
+	text-align: right;
+}
+
+.menu ul li {
+	display: inline-block;
+}
+
+.menu ul li a {
+	display: block;
+	padding: 10px ;
+	text-transform: uppercase;
+	font-size: 14px; 
+	color: #212121;
+	font-weight: 600;
+}
+
+.header-content {
+	text-align: right;
+
+}
+
+.header-content h2 {
+	font-weight: 900;
+	margin-top: 200px;
+	font-size: 50px;
+	color: #212121;
+}
+
+.header-content hr {
+	width: 170px;
+	display: inline-block;
+	border: none;
+	border-top: 6px solid #212121;
+}
+
+.contt{
+    overflow:hidden;
+    
+}
+
+.header-content p{
+	width: 40%;
+	float: right;
+	margin: 20px 0px;
+    text-align: justify;
+	line-height: 30px;
+}
+
+.header-content a {
+	display: inline-block; 
+	border: 2px solid #212121;
+	padding: 10px 80px;
+    color: #212121;
+    margin-right: 0px;
+    margin-top:0px;
+}
+
+/* header part end here*/
+
+/* who&why part start from here*/
+.who-why {
+    padding: 100px 0px;
+}
+.who-why img{
+    margin: auto;
+    display: block;
+}
+.who-why h2{
+    text-align: center;
+    margin-top: 10px;
+}
+.who-why,.txt{
+    width: 92%;
+    margin: auto;
+}
+.who-why,.txt p{
+    text-align: center;
+    margin-top:50px;
+    line-height: 30px;
+    color: #212121;
+    width: 90%;
+}
+/* who&why part end here*/
+
+/* feture part start from here*/
+.feture-part{
+    padding: 60px 0px;
+    background-color: #efefef;
+}
+.f1{
+    width: 30%;
+	display: inline-block;
+}
+.f1 p{
+    font-weight: 400;
+    color: #212121;
+    font-size: 14px;
+	width: 90%;
+	line-height: 28px;
+	letter-spacing: 1px;
+	text-align: left;
+}
+.f1,.img img{
+    padding: 10px 0px;
+}
+.f1 h2{
+	margin-bottom: 10px;
+	font-weight: 600;
+	font-size: 20px;
+}
+.f-m{
+	margin-left: 100px;
+}
+/* feture part end here*/
+
+/* feture article part start here*/
+.feture-article{
+	padding: 80px 0px;
+}
+
+.feture-article h2{
+	text-align: center;
+	font-weight: 700;
+	letter-spacing: 1.5px;
+	padding-bottom: 30px;
+	color: #212121;
+}
+.feture-article p{
+	text-align: center;
+	line-height: 30px;
+	color: #212121;
+	width: 70%;
+	margin: auto;
+	font-size: 14px;
+}
+.f-a-m{
+	margin-left: 50px;
+}
+.f-a-1{
+	background-color: #161e2c;
+	margin-top: 60px;
+	width: 28%;
+	color: #efefef;
+	position: relative;
+	display: inline-block;
+	margin-right: 15px;
+}
+.f-txt span{
+	color: #efefef;
+	display: inline-block;
+	padding: 40px 34px 40px ;
+	font-size: 14px;
+}
+.f-txt h2{
+	color: #efefef;
+	text-align: left;
+	margin-bottom: 50px;
+	margin-left: 30px;
+	font-size: 20px;
+}
+.author{
+	overflow: hidden;
+}
+.author .a-img{
+	padding-bottom: 40px;
+	margin-left: 30px;
+}
+.author img{
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+}
+.authoe-details{
+	position: absolute;
+	left: 100px;
+	bottom: 55px;
+}
+.authoe-details p{
+	color: #efefef;
+	padding: 0px;
+	margin: 0px;
+	line-height: 17px;
+}
+.f-a-1 hr{
+	border: none;
+	border-top: 6px solid transparent;
+	width: 80px;
+	margin: auto;
+	transition: .3s;
+}
+.f-a-1:hover hr{
+	border-top: 6px solid tomato;
+}
+/* feture article part end here*/
+
+/* clintes part start from  here*/
+.clintes{
+	padding: 60px 0px;
+	background-color: #efefef;
+}
+.clintes h3{
+	text-align: center;
+	letter-spacing: 1px;
+	font-size: 22px;
+}
+.client-area{
+	margin-top: 50px;
+	margin-left:80px;
+}
+.c-img{
+	display: inline-block;
+	width: 15%;
+}
+.portfolio{
+	padding: 80px 0px;
+}
+.portfolio h2{
+	text-align: center;
+	letter-spacing: 2px;
+	font-size: 24px;
+	color: #212121;
+	margin-bottom: 40px;
+}
+.portfolio p{
+	text-align: center;
+	width: 90%;
+	line-height: 25px;
+	letter-spacing: 1px;
+}
+.p-txt{
+	margin-left: 90px;
+	margin-bottom: 40px;
+}
+.portfolio hr{
+	border: none;
+	border-top: 6px solid tomato;
+	width: 80px;
+	margin: auto;
+}
+.portfolio .menu{
+	margin: auto;
+	padding:40px 0px;
+}
+.menu ul{
+	list-style: none;
+}
+.menu ul li{
+	display: inline-block;
+}
+.menu ul li a{
+	text-decoration: none;
+	color: #212121;
+	padding: 0px 19px;
+}
+.img-gallary:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.img-box{
+	width: 30%;
+	height: 300px;
+	float: left;
+}
+.img-box img{
+	width: 100%;
+	height: 100%;
+}
+.img-box:last-child{
+	width: 10%;
+	overflow: hidden;
+}
+.img-box:last-child img{
+	width: auto;
+}
+/* clintes part end here*/
+
+/* qutoe part start from here*/
+.quote{
+	padding: 80px 0px;
+	background-color: #212121;
+}
+.quote img{
+	display: block;
+	margin: auto;
+}
+.quote p{
+	text-align: center;
+	color: aliceblue;
+	width: 60%;
+	margin:auto;
+	padding-top: 20px;
+	line-height: 30px;
+	font-size: 14px;
+}
+/* qutoe part end here*/
+
+/* team member part start from here*/
+.team-member{
+	padding: 80px 0px;
+}
+.team-member h2{
+	text-align: center;
+	color: #212121;
+	font-weight: 400;
+	font-size: 20px;
+	margin-bottom: 40px;
+}
+.team-member p{
+	text-align: center;
+	margin: auto;
+	line-height: 30px;
+	color: #212121;
+	width: 75%;
+	font-weight: normal;
+	font-size: 14px;
+}
+
+.tm-box{
+	margin-top: 40px;
+	display: inline-block;
+	width: 24%;
+}
+.tm-box h2{
+	text-align: left;
+	margin: 20px 0px 15px;
+	padding: 0px;
+
+}
+.tm-box p{
+	text-align: left;
+	margin: 0px;
+	padding: 0px;
+	line-height: 10px;
+}
+
+.t-m-m{
+	margin-left: 80px;
+}
+/* team member part end here*/
+
+/* product details part start from here*/
+.product-dt{
+	padding: 80px 0px;
+	overflow: hidden;
+}
+.product-discription{
+	width: 45%;
+	float: left;
+	height: 300px;
+}
+.product-discription p{
+	text-align: center;
+	color: #212121;
+	line-height: 30px;
+	font-size: 14px;
+	width: 90%;
+}
+.product-discription h2{
+	text-align: center;
+	margin-bottom: 40px;
+}
+.product-img{
+	width: 45%;
+	float: left;
+	height: 300px;
+}
+.product-img img{
+	width: 100%;
+	height: 100%;
+}
+
+.p-txt{
+	margin-top: 60px;
+	
+}
+.product-img2{
+	width: 45%;
+	float: left;
+	height: 300px;
+	margin-right: 40px;
+}
+.product-img2 img{
+	width: 100%;
+	height: 100%;
+}
+.product-discription2{
+	width: 45%;
+	float: left;
+	height: 300px;
+}
+.product-discription2 p{
+	text-align: center;
+	color: #212121;
+	line-height: 30px;
+	font-size: 14px;
+	width: 90%;
+}
+.product-discription2 h2{
+	text-align: center;
+	margin-bottom: 40px;
+}
+.p-txt2{
+	margin-top: 60px;
+}
+/* product details part end here*/
+
+/*blog part start from here*/
+.blog{
+	padding: 80px 0px;
+	background-color: #efefef;
+	position: relative;
+}
+.blog hr{
+	border: none;
+	border-left: 5px solid #212121;
+	height:65px;
+}
+.b-txt{
+	position: absolute;
+	left: 210px;
+	bottom: 120px;
+	top: 100px;
+}
+.b-txt h2{
+	font-weight: 500;
+	font-size: 16px;
+	color: #212121;
+}
+.b-txt p{
+	font-size: 14px;
+	font-weight: 400;
+	padding-top: 8px;
+}
+.blog-sizing{
+	display: inline-block;
+	width: 30%;
+}
+.b-txt2{
+	position: absolute;
+	left: 520px;
+	bottom: 220px;
+	top: 100px;
+}
+.b-txt2 p{
+	font-size: 14px;
+	font-weight: 400;
+	padding-top: 8px;
+}
+.b-txt2 h2{
+	font-weight: 500;
+	font-size: 16px;
+	color: #212121;
+}
+
+.b-txt3{
+	position: absolute;
+	left: 830px;
+	bottom: 220px;
+	top: 100px;
+}
+.b-txt3 p{
+	font-size: 14px;
+	font-weight: 400;
+	padding-top: 8px;
+}
+.b-txt3 h2{
+	font-weight: 500;
+	font-size: 16px;
+	color: #212121;
+}
+
+.b-m{
+	margin-left: 60px;
+}
+/* blog part end here*/
+
+/* tweet part start from here*/
+.tweet{
+	padding: 80px 0px;
+}
+.tweet img{
+	display: block;
+	margin: auto;
+	width: 20px;
+	height: 20px;
+	margin-bottom: 50px;
+}
+.t-img img{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+.tweet p{
+	text-align: center;
+	margin:auto;
+	line-height: 28px;
+	font-size: 14px;
+	width: 60%;
+}
+.tweet h2{
+	text-align: center;
+	font-size: 14px;
+	font-weight: 600;
+	margin-top: 30px;
+}
+/* tweet part end here*/
+
+/* footer part start from here*/
+.footer{
+	padding: 100px 0px 150px;
+	background-color: #212121;
+	position: relative;
+}
+.footer img{
+	position: absolute;
+	left: 135px;
+	top: 50px;
+}
+.footer-left{
+	width: 50%;
+	float: left;
+}
+.footer-left p{
+	width: 90%;
+	color: #999999;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 28px;
+}
+.footer-contact input{
+	border: none;
+	outline: none;
+	border-bottom: 1px solid #474747;
+	background-color:transparent;
+	margin-top: 40px;
+	cursor: text;
+	width: 38%;
+	margin-right: 20px;
+}
+.footer-contact input[placeholder]{
+	color: #999999;
+	font-size: 15px;
+	letter-spacing: .9px;
+}
+
+.footer-contact input:last-child{
+	width: 80%;
+	margin: 10px 0px 0px;
+}
+.footer-right{
+	float: right;
+	display: flex;
+}
+.footer-right ul{
+	list-style: none;
+}
+.footer-right ul li a{
+	color: #999999;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: 400;
+}
+.footer-right ul li{
+	padding: 5px 0px;
+}
+.links,.friends,.social{
+	padding: 0px 50px;
+}
+
+.footer hr{
+	color: #474747;
+	position: absolute;
+	bottom: 80px;
+	width: 80%;
+}
+.footer-down-r{
+	width: 50%;
+}
+.footer-down-r p{
+	color: #999999;
+	position: absolute;
+	bottom: 20px;
+	width: 34%;
+	font-size: 14px;
+	font-weight: 400;
+}
+.footer-down-l{
+	position: absolute;
+	right: 120px;
+	bottom: 30px;
+}
+.footer-down-l ul{
+	list-style: none;
+}
+.footer-down-l ul li{
+	display: inline-block;
+} 
+.footer-down-l ul li a{
+	color: #999999;
+	padding: 0px 5px;
+	font-size: 14px;
+	font-weight: 400;
+}
+.footer span{
+	color: #646464;
+	font-size: 14px;
+	font-weight: 400;
+	position: absolute;
+	bottom: 100px;
+	left: 138px;
+}
+.links h2{
+	font-weight: 400;
+	font-size: 14px;
+	color: #efefef;
+	position: absolute;
+	top: 55px;
+	right: 568px;
+}
+.friends h2{
+	font-weight: 400;
+	font-size: 14px;
+	color: #efefef;
+	position: absolute;
+	top: 55px;
+	right: 388px;
+}
+.social h2{
+	font-weight: 400;
+	font-size: 14px;
+	color: #efefef;
+	position: absolute;
+	top: 55px;
+	right: 220px;	
+}
+/* footer part end here*/
+
+/*==============================================
+tnx for you! css is finished
++++++++++++++++++++++++++++++++++++++++++++*/
